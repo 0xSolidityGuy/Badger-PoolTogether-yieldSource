@@ -9,13 +9,13 @@
 
 PoolTogether Yield Source that uses [Badger](https://badger.finance/) to generate yield by lending ERC20 token supported by Badger and deposited into the Badger Yield Source.
 
-## Coveralls Test case badge as per pool together requirements  
+## Badges of coveralls unit-testcase as per the requirements pooltogether.  
 
 ![Tests](https://github.com/0xSolidityGuy/Badger-PoolTogether-yieldSource/actions/workflows/main.yml/badge.svg)
 [![Coverage Status](https://coveralls.io/repos/github/0xSolidityGuy/Badger-PoolTogether-yieldSource/badge.svg?branch=master)](https://coveralls.io/github/0xSolidityGuy/Badger-PoolTogether-yieldSource?branch=master)
 [![built-with openzeppelin](https://img.shields.io/badge/built%20with-OpenZeppelin-3677FF)](https://docs.openzeppelin.com/)  
 
-## KOVAN Testnet Deployed addresses
+## Kovan Testnet Deployed addresses
 
 Badger YieldSource: 0x824EE918929E8560a8AdB5759802262deBD01D5e  
 Sett:  0x7d51F51a1c00B52cf2128af411368b5ab1dE8E79  
@@ -40,18 +40,18 @@ https://github.com/pooltogether/pooltogether-proxy-factory/blob/master/contracts
 
 ## Setup
 
-1). Make `.env` file on root folder and add below variable with your config,  
+1). Make `.env` and below config,
 
     i). MNEMONIC='' 
     ii). INFURA_API_KEY=  
     iii). ALCHEMY_API_KEY=
     iv). FORK_ENABLED="false"
 
-2). Install Dependency by 
+2). Install
     
     yarn 
 
-3). To compile Smart contract code:
+3). To compile Smart contracts:
         
     yarn compile
  
