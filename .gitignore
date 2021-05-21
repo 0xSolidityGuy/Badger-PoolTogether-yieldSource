@@ -1,0 +1,35 @@
+node_modules
+
+#Hardhat files
+cache
+artifacts
+.env
+demo.ts
+demo.sol
+types
+deployments/localhost/
+old-code
+
+/.yarn/*
+!/.yarn/releases
+!/.yarn/plugins
+!/.yarn/sdks
+
+# Solidity Coverage
+coverage
+coverage.json
+
+# VS Code
+.history
+
+old-code-badger-contracts
+
+test/badgerYieldSourceOld.test.ts
+test/badgerYielSourceUnitTest.test.ts
+test/WBTCYieldSourceMockUnit.test.ts
+test/wbtcYieldSourceOld.test.ts
+contracts/WBTCYieldSource.sol
+contracts/test/WBTCYieldSourceHarness.sol
+
+
+

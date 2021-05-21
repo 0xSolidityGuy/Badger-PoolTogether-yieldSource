@@ -1,0 +1,62 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "_bBadger",
+        "type": "address"
+      },
+      {
+        "internalType": "address",
+        "name": "_iGenericProxyFactory",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "nonpayable",
+    "type": "constructor"
+  },
+  {
+    "inputs": [],
+    "name": "badgerYieldSourceInstance",
+    "outputs": [
+      {
+        "internalType": "contract BadgerYieldSourceHarness",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "createNewProxy",
+    "outputs": [
+      {
+        "internalType": "address",
+        "name": "instanceCreated",
+        "type": "address"
+      },
+      {
+        "internalType": "bytes",
+        "name": "result",
+        "type": "bytes"
+      }
+    ],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "iGenericProxyFactory",
+    "outputs": [
+      {
+        "internalType": "contract IGenericProxyFactory",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  }
+]
